@@ -1,7 +1,7 @@
 @import url(accessories.css);
 
 /* === NO ARTICLES STYLING === */
-.no-articles {
+div.no-articles {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,18 +13,18 @@
     background-color: var(--item);
 }
 
-.no-articles > * {
+div.no-articles > * {
     color: var(--text-dark);
     margin: 15px 0px;
 }
 
-.no-articles > h3 {
+div.no-articles > h3 {
     margin: 12px 0px;
 }
 
 
 @media only screen and (min-width: 600px){
-    .no-articles {
+    div.no-articles {
         margin: 12px;
     }
 }

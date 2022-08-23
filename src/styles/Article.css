@@ -1,11 +1,11 @@
 @import url(accessories.css);
 
-.article-link {
-    text-decoration: none;
+a.article-link {
+    text-decoration: none !important;
     color: var(--text-dark);
 }
 
-.article-box {
+section.article-box {
     background-color: var(--item);
     border: 1px solid var(--item-border);
     margin: 10px 0px;
@@ -13,35 +13,35 @@
     border-radius: 5px;
 }
 
-.article-box:hover {
+section.article-box:hover {
     background-color: var(--item-hover);
     color: var(--text-scarlet);
 }
 
-.article-title {
+h3.article-title {
     margin-bottom: 10px;
 }
 
-.article-author {
+p.article-author {
     margin-top: 10px;
 }
 
-.flex {
+div.flex {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 @media only screen and (min-width: 600px){
-    .flex {
+    div.flex {
         flex-direction: row;
     }
 
-    .article-author {
+    p.article-author {
         margin-top: 0px;
     }
 
-    .article-box {
+    section.article-box {
         margin: 10px;
     }
 }

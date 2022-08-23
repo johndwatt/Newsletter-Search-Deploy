@@ -1,17 +1,16 @@
 @import url(accessories.css);
 
 /* === SEARCH STYLING === */
-
-.search-container {
+div.search-container {
     display: flex;
 }
 
-.options {
+div.options {
     display: flex;
     flex-direction: row;
 }
 
-.search-container > form {
+div.search-container > form {
     display: flex;
     flex-direction: column;
     background-color: var(--item);
@@ -24,7 +23,7 @@
 }
 
 /* Search input */
-.search-container > form > div > input {
+div.search-container > form > div > input {
     padding: 15px;
     margin-right: 10px;
     border: none;
@@ -34,17 +33,17 @@
     color: var(--text-dark);
 }
 
-.search-container > form > div > input:hover {
+div.search-container > form > div > input:hover {
     transform: scale(1.005);
     transition: 0.3s;
 }
 
-.search-container > form > div > input:focus {
+div.search-container > form > div > input:focus {
     outline: none;
 }
 
 /* Search Buttons */
-.search-btns {
+div.search-btns {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -70,7 +69,7 @@ button:hover {
 }
 
 /* === PAGINATION STYLING === */
-.pagination-container {
+form.pagination-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -83,61 +82,50 @@ button:hover {
     font-size: var(--font-size);
 }
 
-.current-page {
+p.current-page {
     color: var(--text-dark);
     font-size: var(--font-size);
 }
 
-.disabled {
+button.disabled {
     background-color: var(--background);
     border: 1px solid var(--background);
     color: var(--text-light);
 }
 
-.disabled:hover {
+button.disabled:hover {
     background-color: var(--background);
     color: var(--text-light);
     cursor: default;
 }
 
-/* === ERROR STYLING === */
-.error-msg {
-    margin: 12px;
-    padding: 15px;
-    border: 1px solid var(--item);
-    border-radius: 5px;
-    background-color: var(--item);
-    text-align: center;
-    color: var(--text-dark);
-}
-
 /* === RADIO STYLING === */
-.per-page-radio {
+div.per-page-radio {
     padding: 5px; 
     color: var(--text-dark);
     font-size: var(--font-size-alt);
     font-family: var(--font);
 }
 
-.per-page-radio-options {
+div.per-page-radio-options {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.per-page-radio-options > div {
+div.per-page-radio-options > div {
     padding: 10px;
     display: flex;
 }
 
-.per-page-radio-options > div > label {
+div.per-page-radio-options > div > label {
     padding-left: 5px;
 }
 
 
 /* === MEDIA QUERIES === */
 @media only screen and (min-width: 360px){
-    .per-page-radio {
+    div.per-page-radio {
         padding: 10px; 
     }
 
@@ -145,34 +133,34 @@ button:hover {
         margin: 0px 10px;
     }
 
-    .input-div {
+    div.input-div {
         width: 100%;
     }
 
-    .input-div > input {
+    div.input-div > input {
         width: 100%;
     }
 
-    .options {
+    div.options {
         justify-content: center;
     }
 }
 
 @media only screen and (min-width: 600px){
-    .search-container > form {
+    div.search-container > form {
         margin: 12px;
     }
 }
 
 
 @media only screen and (min-width: 750px){
-    .search-container > form {
+    div.search-container > form {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
     }
 
-    .options {
+    div.options {
         justify-content: right;
     }
 }

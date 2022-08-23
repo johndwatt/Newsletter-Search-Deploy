@@ -1,6 +1,6 @@
 @import url(accessories.css);
 
-.loading-box {
+section.loading-box {
     background-color: var(--item);
     border: 1px solid var(--item-border);
     margin: 10px 0px;
@@ -9,20 +9,20 @@
     color: var(--text-dark)
 }
 
-.loading-title {
+h3.loading-title {
     margin-bottom: 10px;
 }
 
-.loading-author {
+p.loading-author {
     margin-top: 10px;
 }
 
 @media only screen and (min-width: 600px){
-    .loading-author {
+    p.loading-author {
         margin-top: 0px;
     }
 
-    .loading-box {
+    section.loading-box {
         margin: 10px;
     }
 }

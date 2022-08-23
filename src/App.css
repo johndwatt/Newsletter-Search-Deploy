@@ -7,9 +7,9 @@
 
 body {
   background-color: var(--background);
-  font-size: var(--font-size);
-  font-family: var(--font);
-  font-weight: var(--font-weight);
+  font-size: var(--font-size) !important;
+  font-family: var(--font) !important;
+  font-weight: var(--font-weight) !important;
 }
 
 .loading {

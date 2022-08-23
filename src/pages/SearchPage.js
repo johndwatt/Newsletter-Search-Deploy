@@ -54,7 +54,8 @@ function SearchPage(props) {
                    title === "Team Members" ||
                    title === "Home" ||
                    title === "Research" ||
-                   title === "POES"){
+                   title === "POES" ||
+                   title === "Newsletter Search"){
             return "Other";
         } else {
             return "Spotlight";
@@ -196,7 +197,6 @@ function SearchPage(props) {
                 });
                 setArticles(dataMod);
             } else {
-                console.log("next message", data.message);
                 if (data.message === "The page number requested is larger than the number of pages available.") {
                     setErr("No more results available.");
                 } else {
