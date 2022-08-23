@@ -1,0 +1,47 @@
+@import url(accessories.css);
+
+.article-link {
+    text-decoration: none;
+    color: var(--text-dark);
+}
+
+.article-box {
+    background-color: var(--item);
+    border: 1px solid var(--item-border);
+    margin: 10px 0px;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.article-box:hover {
+    background-color: var(--item-hover);
+    color: var(--text-scarlet);
+}
+
+.article-title {
+    margin-bottom: 10px;
+}
+
+.article-author {
+    margin-top: 10px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media only screen and (min-width: 600px){
+    .flex {
+        flex-direction: row;
+    }
+
+    .article-author {
+        margin-top: 0px;
+    }
+
+    .article-box {
+        margin: 10px;
+    }
+}

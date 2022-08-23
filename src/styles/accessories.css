@@ -1,0 +1,17 @@
+:root {
+    /* Colors: */
+    --background: #E9EBEC;
+    --item: #ffffff;
+    --item-hover: #F5F6F8;
+    --item-border: #DDDDDD;
+    --text-light: rgba(255, 255, 255, 0.90);
+    --text-dark: #637A84;
+    --text-scarlet: #b10202;
+   
+
+    /* Fonts */
+    --font: "Roboto", Arial, sans-serif;
+    --font-size: 18px;
+    --font-size-alt: 14px;
+    --font-weight: 300;
+}
