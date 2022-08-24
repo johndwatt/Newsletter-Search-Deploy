@@ -22,6 +22,7 @@ h3.article-title {
     margin-bottom: 10px !important;
     font-family: var(--font) !important;
     font-weight: bold !important;
+    font-size: var(--font-size-heading) !important;
 }
 
 p.article-author {
