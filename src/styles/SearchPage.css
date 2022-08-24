@@ -65,6 +65,7 @@ button.button {
     white-space: nowrap !important;
     transition: 0.2s !important;
     font-size: var(--font-size-alt) !important;
+    font-weight: 400 !important;
 }
 
 button.button:hover {
@@ -89,6 +90,7 @@ form.pagination-container {
 p.current-page {
     color: var(--text-dark);
     font-size: var(--font-size);
+    margin: 0;
 }
 
 button.disabled {
@@ -124,6 +126,13 @@ div.per-page-radio-options > div {
 
 div.per-page-radio-options > div > label {
     padding-left: 5px;
+}
+
+div.per-page-radio label {
+    font-weight: 400 !important;
+    color: var(--text-dark);
+    font-size: var(--font-size-alt);
+    font-family: var(--font);
 }
 
 

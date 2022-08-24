@@ -144,7 +144,7 @@ function SearchPage(props) {
             setLoading(false);
         } catch (error) {
             setLoading(false);
-            if (error.message === "data.map is not a function") {
+            if (error.message === "o.map is not a function") {
                 setErr("Current page and results per page mismatch. Do not change results per page when not on the first page.");
             } else {
                 setErr(error.message);
@@ -208,7 +208,7 @@ function SearchPage(props) {
             setLoading(false);
         } catch (error){
             setLoading(false);
-            if (error.message === "data.map is not a function") {
+            if (error.message === "o.map is not a function") {
                 setErr("Current page and results per page mismatch. Do not change results per page when not on the first page.");
             } else {
                 setErr(error.message);
@@ -252,7 +252,7 @@ function SearchPage(props) {
             setLoading(false);
         } catch (error){
             setLoading(false);
-            if (error.message === "data.map is not a function") {
+            if (error.message === "o.map is not a function") {
                 setErr("Current page and results per page mismatch. Do not change results per page when not on the first page.");
             } else {
                 setErr(error.message);
