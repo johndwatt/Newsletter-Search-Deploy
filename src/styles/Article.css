@@ -11,9 +11,6 @@ section.article-box {
     margin: 10px 0px !important;
     padding: 25px !important;
     border-radius: 5px !important;
-    font-size: var(--font-size) !important;
-    font-family: var(--font) !important;
-    font-weight: var(--font-weight) !important;
 }
 
 section.article-box:hover {
@@ -27,6 +24,12 @@ h3.article-title {
 
 p.article-author {
     margin-top: 10px !important;
+}
+
+h3.article-title, p.article-author, p.article-date {
+    font-size: var(--font-size) !important;
+    font-family: var(--font) !important;
+    font-weight: var(--font-weight) !important;
 }
 
 div.flex {
