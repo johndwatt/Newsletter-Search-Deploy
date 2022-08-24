@@ -1,8 +1,7 @@
 @import url(accessories.css);
 
-main.search-page {
-    margin: 0;
-    padding: 0;
+main.search-page p:last-child {
+    margin-bottom: 0px;
 }
 
 /* === SEARCH STYLING === */
