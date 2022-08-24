@@ -313,12 +313,12 @@ function SearchPage(props) {
                         <div className='search-btns'>
                             <button 
                                 type="submit" 
-                                className='search-button'
+                                className='search-button button'
                                 onClick={handleSearch}>
                                 Search
                             </button>
                             <button
-                                className='clear-button'
+                                className='clear-button button'
                                 onClick={handleClearSearch}>
                                 Clear
                             </button>
@@ -340,12 +340,13 @@ function SearchPage(props) {
                             </div>
                             <form className='pagination-container'>
                                 <button
+                                    className='button'
                                     onClick={handlePrevPage}>
                                     Prev
                                 </button>
-                                <p className='current-page'>{page}</p>
+                                <p className='current-page'>Page {page}</p>
                                 <button
-                                    className='disabled'
+                                    className='disabled button'
                                     disabled>
                                     Next
                                 </button>
@@ -373,18 +374,20 @@ function SearchPage(props) {
                                     <form className='pagination-container'>
                                         { page === 1 ? (
                                             <button
-                                                className='disabled'
+                                                className='disabled button'
                                                 disabled>
                                                 Prev
                                             </button>
                                         ) : (
                                             <button
+                                                className='button'
                                                 onClick={handlePrevPage}>
                                                 Prev
                                             </button>
                                         )}
                                         <p className='current-page'>Page {page}</p>
                                         <button
+                                            className='button'
                                             onClick={handleNextPage}>
                                             Next
                                         </button>

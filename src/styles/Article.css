@@ -6,24 +6,27 @@ a.article-link {
 }
 
 section.article-box {
-    background-color: var(--item);
-    border: 1px solid var(--item-border);
-    margin: 10px 0px;
-    padding: 25px;
-    border-radius: 5px;
+    background-color: var(--item) !important;
+    border: 1px solid var(--item-border) !important;
+    margin: 10px 0px !important;
+    padding: 25px !important;
+    border-radius: 5px !important;
+    font-size: var(--font-size) !important;
+    font-family: var(--font) !important;
+    font-weight: var(--font-weight) !important;
 }
 
 section.article-box:hover {
-    background-color: var(--item-hover);
-    color: var(--text-scarlet);
+    background-color: var(--item-hover) !important;
+    color: var(--text-scarlet) !important;
 }
 
 h3.article-title {
-    margin-bottom: 10px;
+    margin-bottom: 10px !important;
 }
 
 p.article-author {
-    margin-top: 10px;
+    margin-top: 10px !important;
 }
 
 div.flex {
@@ -38,10 +41,10 @@ div.flex {
     }
 
     p.article-author {
-        margin-top: 0px;
+        margin-top: 0px !important;
     }
 
     section.article-box {
-        margin: 10px;
+        margin: 10px !important;
     }
 }

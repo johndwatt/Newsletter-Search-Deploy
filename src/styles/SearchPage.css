@@ -50,22 +50,22 @@ div.search-btns {
     align-items: center;
 }
 
-button {
-    color: var(--text-dark);
-    background-color: var(--item);
-    border: solid 1px var(--item-border);
-    border-radius: 5px;
-    margin: 0px 3px;
-    padding: 10px;
-    cursor: pointer;
-    white-space: nowrap;
-    transition: 0.2s;
-    font-size: var(--font-size-alt);
+button.button {
+    color: var(--text-dark) !important;
+    background-color: var(--item) !important;
+    border: solid 1px var(--item-border) !important;
+    border-radius: 5px !important;
+    margin: 0px 3px !important;
+    padding: 10px !important;
+    cursor: pointer !important;
+    white-space: nowrap !important;
+    transition: 0.2s !important;
+    font-size: var(--font-size-alt) !important;
 }
 
-button:hover {
-    color: var(--text-scarlet);
-    background-color: var(--item-hover);
+button.button:hover {
+    color: var(--text-scarlet) !important;
+    background-color: var(--item-hover) !important;
 }
 
 /* === PAGINATION STYLING === */
