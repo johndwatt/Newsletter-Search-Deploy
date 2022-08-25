@@ -106,6 +106,10 @@ button.disabled:hover {
 }
 
 /* === RADIO STYLING === */
+input[type=radio] {
+    margin: 0;
+}
+
 div.per-page-radio {
     padding: 5px; 
     color: var(--text-dark);
@@ -122,6 +126,8 @@ div.per-page-radio-options {
 div.per-page-radio-options > div {
     padding: 10px;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 div.per-page-radio-options > div > label {
@@ -133,6 +139,7 @@ div.per-page-radio label {
     color: var(--text-dark);
     font-size: var(--font-size-alt);
     font-family: var(--font);
+    margin: 0;
 }
 
 
